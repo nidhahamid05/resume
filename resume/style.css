@@ -62,5 +62,21 @@
 }
 
 
+@media screen and (max-width: 768px) {
+  .class-list{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  
+  .resume {
+    height: auto;
+  }
+
+  .hero-section{
+    padding: 10px 4px;
+  }
+
+}
+
 
 
