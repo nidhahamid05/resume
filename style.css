@@ -1,0 +1,66 @@
+.resume {
+  width: 90vw;
+  margin: auto;
+  height: 90vh;
+  margin: auto;
+  background-color: #d6d0d050;
+  padding: 20px;
+}
+
+.hero-section {
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6b6666;
+  color: #ffffff;
+  padding: 4px 0;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.skills{
+  padding: 0 8px;;
+}
+
+.class-list{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.class-list li{
+  padding: 10px 8px;
+  background-color: #ffffff;
+  border: 1px solid #979090;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #b8b3b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificate-list{
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border: 1px solid #979090;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #b8b3b3;
+  display: flex;
+  list-style: none;
+}
+
+
+
+
